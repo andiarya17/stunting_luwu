@@ -1,0 +1,37 @@
+stunting_luwu/
+│
+├── index.php                          # Halaman utama/beranda
+├── config/
+│   └── database.php                   # Konfigurasi database
+│
+├── admin/
+│   ├── login.php                      # Login admin
+│   ├── dashboard.php                  # Dashboard admin
+│   ├── kelola_informasi.php           # Kelola informasi stunting
+│   ├── kelola_berita.php              # Kelola berita terkini
+│   ├── tambah_berita.php              # Form tambah berita
+│   ├── edit_berita.php                # Form edit berita
+│   ├── riwayat_cek.php                # Riwayat cek stunting
+│   ├── laporan.php                    # Laporan hasil cek
+│   └── logout.php                     # Logout admin
+│
+├── user/
+│   ├── informasi_stunting.php         # Halaman informasi stunting
+│   ├── cek_stunting.php               # Form cek stunting
+│   └── hasil_cek.php                  # Hasil cek stunting
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css                  # Custom CSS
+│   ├── js/
+│   │   └── script.js                  # Custom JavaScript
+│   └── images/
+│       └── logo_luwu.png              # Logo Kabupaten Luwu
+│
+├── includes/
+│   ├── header.php                     # Header template
+│   ├── footer.php                     # Footer template
+│   └── functions.php                  # Fungsi-fungsi PHP
+│
+└── database/
+    └── stunting_luwu.sql              # File database SQL
